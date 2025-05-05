@@ -1,0 +1,148 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<header id="home">
+    <div class="profile-header">
+        <img src="{% static 'images/profile.jpg' %}" alt="Cardoso Matine" class="profile-pic">
+        <div class="hero-text">
+            <h1>
+                Hi, my name is  
+                <span style="
+                  background: linear-gradient(90deg,rgb(162, 165, 182),rgb(85, 17, 32), #rgb(14, 0, 141)
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  background-clip: text;
+                  text-fill-color: transparent;
+                ">Cardoso</span>
+              </h1>
+                         
+            <div class="typewriter">
+                I'm a <span  style="
+                background: linear-gradient(90deg,rgb(17, 3, 32),rgb(11, 33, 158), #ff1e56);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+              "id="typewriter" class="typewriter-text"></span>
+            </div>
+            <p>I'm a web developer focused on backend, with strong experience in Python and Django. I have experience in building APIs, database integrations, and scalable applications. I write clean code, following best practices, and value quality deliveries. I'm proficient in Django REST, MySQL, Git, and Docker. I'm looking for challenging projects where I can apply technical solutions effectively.</p>
+            <div>
+                <a href="#" class="btn">My CV</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="timeline-section">
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2021</div>
+            <div class="timeline-content">
+                My first "Hello World" in Python marked the beginning of a journey of learning and growth in programming
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2022</div>
+            <div class="timeline-content">
+                I deepened my studies and worked as an apprentice at UP, focusing on programming and networking.
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2023</div>
+            <div class="timeline-content">
+                I started my degree in Computer and Telecommunications Engineering.
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2024</div>
+            <div class="timeline-content">
+                I started building personal web projects and advanced in backend development.
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2025</div>
+            <div class="timeline-content">
+                Worked as a Python developer at BetrBeta, gaining hands-on experience and solidifying my role as a backend programmer.
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-container">
+        <div class="skill-item">HTML/CSS</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">Python</div>
+        <div class="skill-item">Django</div>
+        <div class="skill-item">UI/UX Design</div>
+        <div class="skill-item">React</div>
+        <div class="skill-item">Git</div>
+        <div class="skill-item">Figma</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <img src="{% static 'images/project1.jpg' %}" alt="Project 1" class="project-img">
+            <div class="project-info">
+                <h3>E-commerce Website</h3>
+                <p>Online store built with Django and React.</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="{% static 'images/project2.jpg' %}" alt="Project 2" class="project-img">
+            <div class="project-info">
+                <h3>Portfolio Design</h3>
+                <p>Creative portfolio for a photographer.</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="{% static 'images/project3.jpg' %}" alt="Project 3" class="project-img">
+            <div class="project-info">
+                <h3>Mobile App UI</h3>
+                <p>Fitness tracking application interface.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <h2 class="section-title">Services</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <h3>Web Development</h3>
+            <p>Custom websites and web applications built with modern technologies.</p>
+        </div>
+        <div class="service-card">
+            <h3>API</h3>
+            <p>Comming.</p>
+        </div>
+        <div class="service-card">
+            <h3>web site</h3>
+            <p>cominng.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-form">
+        
+
+        
+    </div>
+</section>
+{% endblock %}
