@@ -134,7 +134,7 @@ nav a:hover {
 
 .btn {
     display: inline-block;
-    background-color: var(--secondary-color);
+    background-color: #010f8f;
     color: white;
     padding: 6px 10px;
     border-radius: 5px;
@@ -222,20 +222,43 @@ section {
 
 /* Seção Skills */
 .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .skill-item {
-    background: var(--secondary-color);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
+.skill-icon {
+    font-size: 2.5rem;
+    
+    transition: transform 0.3s ease;
+}
+
+.fa-python { color: #3776AB; }
+.fa-js { color: #F7DF1E; } 
+.fa-html5 { color: #E34F26; }
+.fa-css3-alt { color: #1572B6; } 
+.fa-java { color: #007396; } 
+.fa-git-alt { color: #F05032; } 
+.fa-github { color: #181717; } 
+.fa-docker {color: #2496ED; }
+
+.skill-item:hover .skill-icon {
+    transform: scale(1.2);
+}
+
+.skill-name {
+    text-align: center;
+    font-weight: bold;
+}
 /* Seção Contact */
 .contact-form {
     max-width: 600px;
@@ -297,7 +320,7 @@ section {
     left: 0;
     right: 0;
     height: 2px;
-    background-color: #2e7ad3;
+    background-color: #010f8f;
     z-index: 1;
 }
 
@@ -315,7 +338,7 @@ section {
     transform: translateX(-50%);
     width: 24px;
     height: 24px;
-    background-color: #2e7ad3;
+    background-color: #010f8f;
     border-radius: 50%;
     z-index: 2;
 }
@@ -324,7 +347,7 @@ section {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
-    color: #2e7ad3;
+    color: #010f8f;
 }
 
 .timeline-content {
