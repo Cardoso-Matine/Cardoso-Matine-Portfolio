@@ -194,8 +194,8 @@ section {
 /* Seção Projects */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));/* parte que faz as duas colunas */
+    gap: 30px; /* e isso e o espaco */
 }
 
 .project-card {
@@ -207,7 +207,7 @@ section {
 
 .project-img {
     width: 100%;
-    height: 200px;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -250,6 +250,8 @@ section {
 .fa-git-alt { color: #F05032; } 
 .fa-github { color: #181717; } 
 .fa-docker {color: #2496ED; }
+.fa-server { color: #008a12; }
+.fa-database { color: #0a5188; }
 
 .skill-item:hover .skill-icon {
     transform: scale(1.2);
