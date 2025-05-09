@@ -1,4 +1,3 @@
-// Typewriter effect
 const professions = ["Software Developer", "Web Developer"];
 let professionIndex = 0;
 let charIndex = 0;

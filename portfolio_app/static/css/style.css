@@ -46,12 +46,6 @@ header {
 
 }
 
-
-
-
-
-
-
 /* mobi */
 @media (max-width: 768px) {
     .profile-header {
@@ -144,7 +138,6 @@ nav a:hover {
     font-size: 0.9rem;   
 }
 
-/* Typewriter effect */
 .typewriter {
     font-size: 1.5rem;
     color: var(--primary-color);
@@ -191,7 +184,6 @@ section {
     margin-top: 20px;
 }
 
-/* Seção Projects */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));/* parte que faz as duas colunas */
@@ -220,7 +212,6 @@ section {
     margin-top: 0;
 }
 
-/* Seção Skills */
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -261,7 +252,7 @@ section {
     text-align: center;
     font-weight: bold;
 }
-/* Seção Contact */
+/*Contact */
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -301,7 +292,6 @@ section {
     font-weight: bold;
 }
 
-/* linha do tempo */
 .timeline-section {
     max-width: 1200px;
     margin: 0 auto;
