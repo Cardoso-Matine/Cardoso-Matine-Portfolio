@@ -212,6 +212,48 @@ section {
     margin-top: 0;
 }
 
+
+.project-links {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eaeaea;
+
+    
+}
+
+.project-link {
+    display: inline-block;
+    background-color: #102d49;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #1377b9;
+}
+
+.project-link i {
+    margin-right: 5px;
+}
+
+.project-links h4 {
+    margin: 15px 0 5px 0;
+    font-size: 1rem;
+    color: #e74c3c;
+}
+
+.project-links p {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+}
+
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -252,7 +294,7 @@ section {
     text-align: center;
     font-weight: bold;
 }
-/*Contact */
+
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
