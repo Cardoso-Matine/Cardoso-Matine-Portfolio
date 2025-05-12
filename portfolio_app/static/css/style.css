@@ -62,7 +62,7 @@ header {
 
 nav {
     background-color: rgb(228, 228, 228);
-    padding: 20px 1%; /* Ajuste o padding  */
+    padding: 25px 5%; /* Ajuste o padding  */
     position: fixed;
     width: 100%;
     top: 0;
@@ -160,30 +160,6 @@ section {
     color: var(--primary-color);
 }
 
-
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.service-card {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-}
-
-.service-card:hover {
-    transform: translateY(-10px);
-}
-
-.service-card h3 {
-    color: var(--secondary-color);
-    margin-top: 20px;
-}
-
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));/* parte que faz as duas colunas */
@@ -252,6 +228,39 @@ section {
     color: #666;
     line-height: 1.5;
     margin: 0;
+}
+
+
+.dark-section {
+    background-color: var(--light-color);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.cta-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-container h2 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.btn-light {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(172, 172, 236);
+    padding: 12px 30px;
+    font-size: 1.7rem;
+    transition: all 0.3s ease;
+}
+
+.btn-light:hover {
+    background-color: rgb(61, 37, 168);
+    color: var(--light-colorr);
 }
 
 .skills-container {
@@ -416,4 +425,51 @@ section {
         top: 10px;
         transform: none;
     }
+}
+
+
+footer#contact {
+    background-color: rgb(209, 209, 209);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px; 
+    border-top: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.contact-info,
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #333;
+}
+
+.contact-item a,
+.contact-item span {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #126658;
 }
