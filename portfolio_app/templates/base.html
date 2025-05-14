@@ -17,13 +17,9 @@
     <nav>
         <a href="#home" class="brand">Cardoso Matine - Portfolio</a>
 
-
-        
-
-
-       
-
-
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
 
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
@@ -32,27 +28,23 @@
        <!-- <li><a href="#services">Services</a></li> --> 
             <li><a href="#contact">Contact</a></li> 
         </ul>
+
     </nav>
 
     {% block content %}
     <!-- A base se estende, ela pode estar em outras sub abas do site-->
     {% endblock %} 
 
-    <script src="{% static 'js/main.js' %}"></script>
-
-
-
-
-
-
-   
-
-
-
-
-
-
 </body>
 </html>
+
+
+
+
+
+
+
+
+
 
 <!-- A base se estende, ela pode estar em outras sub abas do site--> 
