@@ -5,7 +5,7 @@ A modern responsive portfolio website built with Django, HTML, CSS and JavaScrip
 ## Features
 
 - **Typewriter Effect**: Animated profession titles
-- **Mobile-Friendly**: Responsive design for all devices
+- **Mobile-Friendly**: Responsive design 
 - **PDF Handling**: CV download with iOS fallback
 - **Smooth Scrolling**: Navigation between sections
 
