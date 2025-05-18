@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+rabh%#x@z!lp$t@3@1yx(4j#g*%fducx5$z96qyoa^4-sn6i$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cardosowebsite.pythonanywhere.com', 'localhost']
+ALLOWED_HOSTS = ['cardosowebsite.pythonanywhere.com']
 
 
 # Application definition
@@ -119,10 +119,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'portfolio_app/static')]
-
-
-
-
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
