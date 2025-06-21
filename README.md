@@ -2,6 +2,8 @@
 
 A modern responsive portfolio website built with Django, HTML, CSS and JavaScript.
 
+👉 Live Demo: https://cardosowebsite.pythonanywhere.com/
+
 ## Features
 
 - **Typewriter Effect**: Animated profession titles
