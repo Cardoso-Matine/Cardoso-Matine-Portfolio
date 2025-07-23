@@ -238,13 +238,13 @@ section {
 .fa-python { color: #3776AB; }
 .fa-js { color: #F7DF1E; } 
 .fa-html5 { color: #E34F26; }
-.fa-css3-alt { color: #1572B6; } 
-.fa-java { color: #007396; } 
+.fa-css3-alt { color: #1572B6; }  
 .fa-git-alt { color: #F05032; } 
 .fa-github { color: #181717; } 
 .fa-docker {color: #2496ED; }
 .fa-server { color: #008a12; }
 .fa-database { color: #0a5188; }
+.fa-react {color: #2496ED; }
 
 .skill-item:hover .skill-icon {
     transform: scale(1.2);
