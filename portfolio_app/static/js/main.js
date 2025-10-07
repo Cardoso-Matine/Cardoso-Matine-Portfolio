@@ -1,4 +1,4 @@
-const professions = ["Software Developer", "Web Developer"];
+const professions = ["Fullstack Engineer", "Web Developer"];
 let professionIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
