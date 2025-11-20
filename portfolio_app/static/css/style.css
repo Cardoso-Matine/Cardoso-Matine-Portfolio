@@ -262,6 +262,36 @@ section {
     gap: 30px; /* e isso e o espaco */
 }
 
+/* Container colapsável para projetos */
+.projects-collapse {
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+}
+
+/* Estado fechado: limita a altura para mostrar apenas a primeira fileira */
+.projects-collapse.collapsed {
+    max-height: 0; /* comece oculto — botão 'Ver' mostrará o conteúdo */
+}
+
+/* Estado aberto: altura grande o suficiente para mostrar todos os projetos */
+.projects-collapse.expanded {
+    max-height: 5000px;
+}
+
+.toggle-projects-btn {
+    background-color: #010f8f;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.toggle-projects-btn:hover {
+    opacity: 0.95;
+}
+
 .project-card {
     border-radius: 10px;
     overflow: hidden;

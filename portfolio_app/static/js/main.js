@@ -1,4 +1,4 @@
-const professions = ["Fullstack Engineer", "Web Developer"];
+const professions = ["Full Stack Engineer", "Web Developer"];
 let professionIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -43,6 +43,22 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
+
+    // Toggle 'Ver' / 'Ocultar' para a seção de projetos
+    const toggleBtn = document.getElementById('toggleProjectsBtn');
+    const projectsCollapse = document.getElementById('projectsCollapse');
+    if (toggleBtn && projectsCollapse) {
+        toggleBtn.addEventListener('click', () => {
+            const expanded = projectsCollapse.classList.toggle('expanded');
+            projectsCollapse.classList.toggle('collapsed', !expanded);
+            toggleBtn.textContent = expanded ? 'Hide projects' : 'Show projects';
+
+            // When expanding, scroll to the projects section to keep context
+            if (expanded) {
+                projectsCollapse.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    }
 });
 
 
